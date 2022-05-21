@@ -8,11 +8,11 @@ function Footer() {
 			</a>
 			<a
 				href="mailto:webcifar@gmail.com"
-				className="font-regular text-sm md:text-md hover:text-indigo-500"
+				className="text-sm md:text-md hover:text-indigo-500"
 			>
 				webcifar@emial.com
 			</a>
-			<p className="text-xs font-regular mt-2 text-gray-500">
+			<p className="text-xs mt-2 text-gray-500">
 				© TechHub-Blog Creative {new Date().getFullYear()}. All rights reserved
 			</p>
 		</div>

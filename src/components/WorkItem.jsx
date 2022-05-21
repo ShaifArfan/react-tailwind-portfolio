@@ -1,6 +1,6 @@
 import React from 'react';
 
-function WorksItem({ imgUrl, title, tech }) {
+function WorkItem({ imgUrl, title, tech }) {
 	return (
 		<div className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden">
 			<img
@@ -27,4 +27,4 @@ function WorksItem({ imgUrl, title, tech }) {
 	);
 }
 
-export default WorksItem;
+export default WorkItem;

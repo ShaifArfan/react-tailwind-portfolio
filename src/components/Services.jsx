@@ -1,7 +1,7 @@
 import React from 'react';
 import services from '../data/services';
 import SectionTitle from './SectionTitle';
-import ServicesItem from './ServicesItem';
+import ServiceItem from './ServiceItem';
 
 function Services() {
 	return (
@@ -9,7 +9,7 @@ function Services() {
 			<SectionTitle>Our Services</SectionTitle>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 				{services.map(service => (
-					<ServicesItem
+					<ServiceItem
 						key={service.title}
 						title={service.title}
 						icon={service.icon}
