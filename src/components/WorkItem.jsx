@@ -1,8 +1,13 @@
 import React from 'react';
 
-function WorkItem({ imgUrl, title, tech }) {
+function WorkItem({ imgUrl, title, tech, workUrl }) {
 	return (
-		<div className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden">
+		<a
+			href={workUrl}
+			target="_blank"
+			rel="noreferrer"
+			className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden"
+		>
 			<img
 				src={imgUrl}
 				alt="work"
@@ -23,7 +28,7 @@ function WorkItem({ imgUrl, title, tech }) {
 					))}
 				</p>
 			</div>
-		</div>
+		</a>
 	);
 }
 
